@@ -11,7 +11,33 @@ _Each turn, a player repeatedly rolls a die until either a 1 is rolled or the pl
 
 
 
+## TDD
 
+SPECS
+
+[x] - Build an Input: Random Number Generator, and Output Random NumberGenerator: [Random number 1-6],[Output playerScoreOne],
+
+  Input: let randomNumber = [4];
+  Output: 
+
+
+-Program will have a random number generator
+  -Input: Click number generator
+  -Output: Random number
+
+-Program will show random number from generator
+  -Input: After random number generator is clicked
+  -Output: Will show random number
+
+-After first roll, PlayerOne chooses to 'hold' and hold button will add to PlayerOneScore total
+  -Input: Click hold random number
+  -Output: Random number added to PlayerOne Score
+
+-PlayerOne chooses to roll again and random number adds other random number
+  -Input: 
+  -Output:
+
+-Player 
 
 
 
