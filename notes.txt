@@ -1,0 +1,5 @@
+Math.floor = Define a Number minimum or maximum interger
+Math
+
+
+console.log(Math.floor((Math.random()* 6) + 1);

@@ -10,7 +10,15 @@ function PlayerScore (rolledDice,currentScore) {
 }
 
 PlayerScore.prototype.rolldice = function () {
-  
+  let randomNumber = Math.floor(Math.random()* 6) + 1);
+    this.rolledDice = randomNumber;
+    console.log(randomNumber);
+    
+    if (randomNumber === 1) {
+      this.currentScore = 0;
+      this.rolledDice = 1;
+    
 }
 
 // User Interface
+
