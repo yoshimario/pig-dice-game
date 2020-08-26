@@ -17,12 +17,13 @@ PlayerScore.prototype.rolldice = function () {
     if (randomNumber === 1) {
       this.currentScore = 0;
       this.rolledDice = 1;
+      console.log("You are doomed for eternity as you have a 1! HAHA Try again!");
     } else if (randomNumber > 1) {
       this.currentScore = randomNumber + this.currentScore
+      console.log(currentScore);
     } else {
-      console.log("error");
-    }
-    return alert("You are doomed for eternity as you have a 1! HAHA Try again!");
+    console.log("We ran into a problem!")
+    } 
 
 });
 
