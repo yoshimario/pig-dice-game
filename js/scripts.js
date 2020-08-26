@@ -2,12 +2,12 @@
 
 // Business Logic
 
-function PigDice () {
+function PlayerInfo () {
   this.rolledDice = 0,
   this.playerScore = 0
 }
 
-PigDice.prototype.rollDice = function() {
+PlayerInfo.prototype.rollDice = function() {
   let randomNumber = Math.floor((Math.random()* 6) + 1);
     this.rolledDice = randomNumber;
     
@@ -26,6 +26,6 @@ PigDice.prototype.rollDice = function() {
 
 // User Interface
 
-let diceOutput = new PigDice();
-console.log(diceOutput.rollDice());
-console.log(diceOutput.rollDice());
+let playerDiceOutput = new PlayerInfo();
+console.log(playerDiceOutput.rollDice());
+console.log(playerDiceOutput.rollDice());
