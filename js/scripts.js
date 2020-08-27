@@ -3,8 +3,11 @@
 // Business Logic
 
 function PlayerInfo () {
-  this.rolledDice = 0,
-  this.playerScore = 0
+  this.playerName
+  this.rolledDice = 0;
+  this.turnScore = 0;
+  this.playerScore = 0;
+  this.activePlayer = activePlayer;
 }
 
 PlayerInfo.prototype.rollDice = function() {
