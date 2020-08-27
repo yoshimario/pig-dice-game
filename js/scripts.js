@@ -1,5 +1,5 @@
 // Global Variables
-
+const activePlayer1, activePlayer2;
 // Business Logic
 
 function PlayerInfo () {
@@ -9,6 +9,26 @@ function PlayerInfo () {
   this.playerScore = 0;
   this.activePlayer = activePlayer;
 }
+
+// Function is for determining who is active
+
+function activePlayer() {
+  if(activePlayer1 === true & activePlayer2.) {
+    $('.playerOneCard').children().prop('disabled', false);
+    $('.playerOneCard').removeClass('disableGamingArea');
+    $('.playerTwoCard').children().prop('disabled', true);
+    $('.playerTwoCard').removeClass('disableGamingArea');
+  } else if {
+    $('.playerOneCard').children().prop('disabled', true);
+    $('.playerOneCard').removeClass('disableGamingArea');
+    $('.playerTwoCard').children().prop('disabled', false);
+    $('.playerTwoCard').removeClass('disableGamingArea');
+  } else {
+    console.log("We ran into a problem!");
+  }
+});
+
+// Function below is the random number generator
 
 PlayerInfo.prototype.rollDice = function() {
   let randomNumber = Math.floor((Math.random()* 6) + 1);
